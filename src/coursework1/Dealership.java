@@ -18,7 +18,8 @@ public class Dealership {
         this.colour = colour;
         this.reg = reg;
 
-}
+    }
+ 
     public String getMake() {
     	return make;
     }
@@ -28,6 +29,7 @@ public class Dealership {
         carDetails+=this.model;
         carDetails+=this.colour;
         carDetails+=this.reg;
+        
         
         carDetails=String.format("%-20s%-20s%-20s%-20s",this.make, this.model, this.colour, this.reg);
         return carDetails;
